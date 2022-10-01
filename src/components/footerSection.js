@@ -56,7 +56,8 @@ const FooterSection = () => {
               positionOffset={100}
               triggerOffset={200}
               delayInMilliseconds={400}>
-      <GatsbyImage className="m-auto mt-20 block max-w-[100%]" image={pageData.footerImage.gatsbyImageData} alt=""/>
+        <GatsbyImage className="m-auto mt-20 block max-w-[100%]" image={pageData.footerImage.gatsbyImageData} alt=""/>
+        <span className="text-sm text-center block mt-2">{pageData.footerImage.title}</span>
       </FadeIn>
       <Heading className="text-center my-20">{pageData.footerStudentReviewsHeading}</Heading>
 

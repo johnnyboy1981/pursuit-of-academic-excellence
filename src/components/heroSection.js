@@ -28,7 +28,7 @@ const HeroSection = () => {
       <div className="absolute w-full h-screen top-0 right-0 -z-25 bg-black-overlay"></div>
       <div className="flex flex-col justify-center items-center text-white z-10 text-center">
         <Heading className="text-5xl max-w-2xl leading-snug">{pageData.heroText}</Heading>
-        <h2 className="text-sm pt-4">{pageData.heroSubTitle}</h2>
+        <h2 className="text-sm">{pageData.heroSubTitle}</h2>
       </div>
     </section>
     
