@@ -10,7 +10,7 @@ const Button = (props) => {
 
     return (
     
-        <a className={`text-xl leading-snug font-bold bg-black text-white px-5 py-2 rounded-md bg-button hover:bg-button-hover`} href={props.url} target="_blank"><span className="mr-2">{icon}</span>{props.children}</a>
+        <a className={`button text-xl leading-snug font-bold bg-black text-white px-5 py-2 rounded-md bg-button hover:bg-button-hover`} href={props.url} target="_blank"><span className="mr-2">{icon}</span>{props.children}</a>
     
   )
 }
