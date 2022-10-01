@@ -27,7 +27,7 @@ const IntroSection = () => {
 
   return (
     
-    <section className="px-[5%] py-[5%] md:px-[25%] md:py-[7%]">
+    <section id="intro" className="px-[5%] py-[5%] md:px-[25%] md:py-[7%]">
       
       {renderRichText(pageData.introQuote)}
       <Heading className="text-center my-20">{pageData.introHeading}</Heading>
