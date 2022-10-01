@@ -73,7 +73,7 @@ const FooterSection = () => {
                   <span className="font-bold">{testimonial.value}</span>
                   <span className="my-4">&mdash; {testimonial.key}</span>
                 </div>
-              </FadeIn>
+            </FadeIn>
           )
         })
       }
