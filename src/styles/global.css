@@ -68,4 +68,5 @@ a:not(.button):hover{
 
 #hero svg{
     font-size: 2.5em;
+    width: 1em;
 }
