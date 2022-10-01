@@ -38,6 +38,18 @@ module.exports = {
         `Lato\:400,700` // you can also specify font weights and styles
       ],
       display: 'swap'
-    }
-  }]
+    },
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `Pursuit of Excellence AcademicAcademic Tutoring and Dissertation Mentorin`,
+      short_name: `Pursuit of Excellenceg`,
+      start_url: `/`,
+      background_color: `#000000`,
+      theme_color: `#000000`,
+      display: `standalone`,
+      icon: `src/images/icon.png`
+    },
+  },]
 };
