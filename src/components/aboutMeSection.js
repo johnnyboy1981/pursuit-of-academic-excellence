@@ -50,7 +50,7 @@ const AboutMeSection = () => {
     <section className="relative flex w-full">
       
       <div className="hidden md:block md:w-1/2">
-        <GatsbyImage className="top-0 right-0 -z-50 sticky h-screen" objectFit="cover" objectPosition="left" image={pageData.aboutMeSideImage.gatsbyImageData} alt=""/>
+        <GatsbyImage className="top-0 right-0 -z-50 sticky h-screen" style={{ position: "absolute" }} objectFit="cover" objectPosition="left" image={pageData.aboutMeSideImage.gatsbyImageData} alt=""/>
       </div>
       <div className="md:w-1/2 px-5 md:px-20">
         <Heading className="text-center mb-10">{pageData.aboutMeHeading}</Heading>
