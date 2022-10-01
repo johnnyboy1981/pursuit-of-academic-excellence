@@ -66,6 +66,7 @@ a:not(.button):hover{
     background-position: center;
 }
 
-.down-icon{
+#hero svg{
+    font-size: 2.5em;
     width: 1em;
 }
