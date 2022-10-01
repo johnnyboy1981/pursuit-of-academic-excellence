@@ -37,7 +37,9 @@ const HeroSection = () => {
       <div className="flex flex-col justify-center items-center text-white z-10 text-center">
         <Heading className="text-5xl max-w-2xl leading-snug">{pageData.heroText}</Heading>
         <h2 className="text-sm">{pageData.heroSubTitle}</h2>
-        <FontAwesomeIcon className="w-auto mt-10 hover:cursor-pointer hover:scale-110 duration-500" size="2x" icon={faAnglesDown} onClick={scrollToIntro} />
+        <div clasName="down-arrow">
+            <FontAwesomeIcon className="w-auto mt-10 hover:cursor-pointer hover:scale-110 duration-500" size="2x" icon={faAnglesDown} onClick={scrollToIntro} />
+        </div>
       </div>
     </section>
     
