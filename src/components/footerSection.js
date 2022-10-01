@@ -44,7 +44,7 @@ const FooterSection = () => {
     
     <section className="px-[5%] py-[5%] md:px-[25%] md:py-[7%]">
       
-      <Heading className="">{pageData.footerHeadingQuote}</Heading>
+      <Heading className="text-center my-20">{pageData.footerHeadingQuote}</Heading>
       <Heading className="text-center my-20">{pageData.footerWhatToExpectHeading}</Heading>
       {renderRichText(pageData.footerWhatToExpectBody)}
       <Heading className="text-center my-20">{pageData.footerFeesHeading}</Heading>
