@@ -54,7 +54,7 @@ const AboutMeSection = () => {
       </div>
       <div className="md:w-1/2 px-5 md:px-20">
         <Heading className="text-center mb-10">{pageData.aboutMeHeading}</Heading>
-        <GatsbyImage className="m-auto block max-w-[250px]" image={pageData.aboutMeImage.gatsbyImageData} alt=""/>
+        <GatsbyImage className="m-auto block max-w-[250px]" style={{ display: "block" }} image={pageData.aboutMeImage.gatsbyImageData} alt=""/>
         <span className="text-sm text-center block mt-2">{pageData.aboutMeImage.title}</span>
         
         
