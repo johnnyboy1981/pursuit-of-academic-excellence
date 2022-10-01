@@ -23,4 +23,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Pursuit of Academic Excellence - Dr. Amy McCroy</title>
