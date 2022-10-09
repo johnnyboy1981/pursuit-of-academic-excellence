@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Pursuit of Excellence Academic Tutoring`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://poetutoring.com`
   },
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',
@@ -51,5 +51,6 @@ module.exports = {
       display: `standalone`,
       icon: `src/images/icon.png`
     },
-  },]
+  },
+  `gatsby-plugin-sitemap`]
 };
