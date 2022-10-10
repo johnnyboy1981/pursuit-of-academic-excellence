@@ -23,4 +23,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <><title>Pursuit of Academic Excellence | Dr. Amy McCroy</title><meta type="description" content="I provide academic tutoring and dissertation mentoring to undergraduate, masters and doctorate students who are looking for assistance with any aspect of their academic journey." /></>
+export const Head = () => <><title>Pursuit of Academic Excellence | Dr. Amy McCroy</title><meta type="description" content="I offer academic tutoring and thesis mentoring to undergraduate, master's and doctoral students who are looking for assistance with any aspect of their academic journey." /></>
